@@ -8,6 +8,8 @@ services:
       - ollama-data:/root/.ollama
       - ./ollama-entrypoint.sh:/entrypoint.sh
     entrypoint: ["/entrypoint.sh"]
+    networks:
+      - ai-network
 
   app:
     build: ./app

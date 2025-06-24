@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 ollama serve &
 sleep 3
 ollama run llama3
