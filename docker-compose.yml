@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  ollama:
+    image: ollama/ollama
+    container_name: ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama:/root/.ollama
+    networks:
+      - ai-network
+
+  app:
+    build: ./app
+    container_name: ai-app
+    ports:
+      - "8888:8888"
+      - "7860-7960:7860-7960"  # Range of ports for Gradio
+    depends_on:
+      - ollama
+    volumes:
+      - ./app:/app
+    working_dir: /app
+    networks:
+      - ai-network
+
+volumes:
+  ollama:
+
+networks:
+  ai-network:
+    driver: bridge

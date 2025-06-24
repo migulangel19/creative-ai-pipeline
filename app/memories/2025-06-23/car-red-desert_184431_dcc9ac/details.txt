@@ -1,0 +1,25 @@
+CREATION DETAILS
+================
+
+Memory ID: 989bda3dadd8
+Timestamp: 2025-06-23T18:46:15.647516
+Creation Folder: memories/2025-06-23/car-red-desert_184431_dcc9ac
+
+ORIGINAL PROMPT:
+create a red sport car on the dessert
+
+EXPANDED PROMPT:
+"A sleek, crimson sports car slices across the endless dunes of the desert landscape. The car's gleaming red paint job glistens in the harsh sunlight, as it leaves a trail of golden dust in its wake. The driver's door is open, and the interior is visible, with racing stripes running along the seats."
+
+KEYWORDS:
+car, red, desert
+
+FILES:
+- Image: image.png
+- 3D Model: model.glb
+
+METADATA:
+- Image Size: 1376330 bytes
+- Model Generated: True
+- Keywords Source: LLaMA
+- Successful 3D API: 3D API (Backup 3)
