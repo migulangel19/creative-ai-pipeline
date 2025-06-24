@@ -21,6 +21,7 @@ cd creative-ai-pipeline
 Make sure you have Docker and Docker Compose installed.
 
 ```bash
+docker pull ollama/ollama
 docker compose up --build
 ```
 Build the app container
