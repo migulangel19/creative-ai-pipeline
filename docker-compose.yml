@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   ollama:
     image: ollama/ollama
@@ -7,16 +5,16 @@ services:
     ports:
       - "11434:11434"
     volumes:
-      - ollama:/root/.ollama
-    networks:
-      - ai-network
+      - ollama-data:/root/.ollama
+      - ./ollama-entrypoint.sh:/entrypoint.sh
+    entrypoint: ["/entrypoint.sh"]
 
   app:
     build: ./app
     container_name: ai-app
     ports:
       - "8888:8888"
-      - "7860-7960:7860-7960"  # Range of ports for Gradio
+      - "7860-7960:7860-7960"
     depends_on:
       - ollama
     volumes:
@@ -26,7 +24,7 @@ services:
       - ai-network
 
 volumes:
-  ollama:
+  ollama-data:
 
 networks:
   ai-network:
