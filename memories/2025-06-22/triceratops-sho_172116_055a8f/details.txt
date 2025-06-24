@@ -1,0 +1,26 @@
+CREATION DETAILS
+================
+
+Memory ID: be2ec00574e3
+Timestamp: 2025-06-22T17:21:44.853139
+Creation Folder: memories/2025-06-22/triceratops-sho_172116_055a8f
+
+ORIGINAL PROMPT:
+create a  triceratops in the midle of the shopping center
+
+
+EXPANDED PROMPT:
+In the bustling heart of the shopping center, a majestic Triceratops stands tall, its frill and three horns gleaming under the mall's bright lights. The massive dinosaur's scaly skin glistens with dew, as if fresh from a morning stroll. Its long neck scans the surroundings, while its small eyes take in the sea of shoppers rushing to and fro, utterly
+
+KEYWORDS:
+triceratops, shopping
+
+FILES:
+- Image: image.png
+- 3D Model: model.glb
+
+METADATA:
+- Image Size: 1958221 bytes
+- Model Generated: True
+- Keywords Source: LLaMA
+- Successful 3D API: 3D API (Working)
