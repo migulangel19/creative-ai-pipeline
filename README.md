@@ -2,6 +2,10 @@
 
 This project is a local AI-powered creative pipeline that transforms simple text prompts into images and interactive 3D models using Openfabric and Ollama (LLaMA 3). It includes persistent memory and a visual interface built with Gradio.
 
+## Project Documentation
+The full technical report and memory of the project is available in the PDF document:
+"Proyect memory.pdf"
+
 ---
 
 ## 🚀 How to Run This Project
